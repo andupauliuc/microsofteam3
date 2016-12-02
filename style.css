@@ -112,7 +112,7 @@ nav {
 
 .red-status{
 
-	background: red;
+	background: #EB655E;
 	width: 40px;
 	height: 40px;
 	border-radius: 50px;
@@ -136,16 +136,38 @@ nav {
 
 .red{
 
-	background: red;
+	background: #EB655E;
 }
 
 .green{
 
-	background: green;
+	background: #B6D884;
 }
 
 .post-content {
-
-	margin: 20px;
+	margin: 20px 0px;
 }
 
+img.sadphoto, img.happyphoto {
+	width: 150px;
+	height: auto;
+}
+
+p.score {
+	font-size: 48px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+h3 {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.padding-button {
+	padding: 0px 10px;
+}
+.button {
+	margin-left: 14px !important;
+}
