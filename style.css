@@ -21,3 +21,11 @@ p.patient_details {
 	font-size: 20px;
 	background-color: #FF5954;
 }
+
+#logout_button {
+	margin: -5px;
+}
+
+#nametest {
+	margin-top: 17px;
+}
