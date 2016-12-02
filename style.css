@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	font-family: Verdana, Arial, Serif;
+	font-size:14px;
+}
+
+#logout_button {
+	margin: -5px;
+}
+
+#nametest {
+	margin-top: 17px;
+}
+
+img.profilepic {
+	height: 300px;
+	width: 300px;
+	text-align: justify-all;
+	margin: 0px 60px 0px 60px;
+} 
+
+p.patient_details_red, p.patient_details_orange, p.patient_details_green {
+	margin-left: 60px;
+	margin-top:  0px;
+	margin-bottom: 60px;
+	font-size: 20px;
+}
+
+p.patient_details_red {
+	background-color: #EB655E;
+}
+
+p.patient_details_orange {
+	background-color: #EFA653;
+}
+
+p.patient_details_green {
+	background-color: #B6D884;
+}
