@@ -22,7 +22,7 @@ img.profilepic {
 	margin: 0px 60px 0px 60px;
 } 
 
-p.patient_details {
+p.patient_details_red, p.patient_details_orange, p.patient_details_green {
 	margin-left: 60px;
 	margin-top:  0px;
 	margin-bottom: 60px;
