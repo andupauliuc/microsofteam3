@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Microsoft Challenge Team #3</title>
+	<title>Med-Alert</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
@@ -11,16 +11,55 @@
 
 <body>
 
+	<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">M E D - A L E R T</a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">PATIENT DATA</a></li>	
+
+		        <li><a href="#">SCHEDULED VISITS</a></li>
+<!-- 		        <li><a href="#">STORIES</a></li> -->
+		      </ul>
+
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li><p id="nametest">Name Psychologist</p></li>
+		        <li><a href="#"><button type="button" id="logout_button" class="btn btn-primary">Logout</button></a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+
 	<div class="container">
 		
+	
 		<div class="row">
-			
+			<div class="col-sm-4">
+				<a href="prim.html"> <img class="profilepic" src="images/patients/prim/prim-profile.jpg" alt="Prim"> </a>
+				<p class="patient_details_red"> Prim, /18</p>
+			</div>
+			<div class="col-sm-4">
+				<a href="jan.html"> <img class="profilepic" src="images/patients/jan/jan-profile.jpg" alt="Jan"> </a>
+				<p class="patient_details_green"> Jan, /16</p>
+			</div>
+			<div class="col-sm-4">
+				<a href="macro.html"> <img class="profilepic" src="images/patients/marco/marco-profile.jpg" alt="Marco"> </a>
+				<p class="patient_details_orange"> Marco, /17</p>
+			</div>
+			<div class="col-sm-4">
+				<a href="marjolein.html"> <img class="profilepic" src="images/patients/marjo/marjo-profile.jpg" alt="Marjolein"> </a>
+				<p class="patient_details_orange"> Marjolein, /16</p>
+			</div>
+			<div class="col-sm-4">
+				<a href="andy.html"> <img class="profilepic" src="images/patients/andy/andy-profile.jpg" alt="Andy"> </a>
+				<p class="patient_details_green"> Andy, /18</p>
+			</div>
 		</div>
-
-
 	</div>
-
-
 
 	<script
   	src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -28,6 +67,10 @@
   	crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
+
+	<div id="footer">
+		<p class="copyright"> Copyright 2016 - MED-ALERT. - All rights reserved </p>
+	</div>
 
 </body>
 </html>
