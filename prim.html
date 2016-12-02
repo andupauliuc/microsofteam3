@@ -5,7 +5,6 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="style.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 
@@ -128,14 +127,14 @@
 					<div class="post-content">
 						<div class="row"> 
 						<div class="col-md-8">
-						<input type="text"> 
-						<input type="file"> <button class="btn btn-default"> GO! </button>
+						<input type="text" id="textSentimentInput"> 
+						<input type="file" id="filename"> <button class="btn btn-default" id="analyseButton"> GO! </button>
 						</div>
 						<div class="col-md-4"> 
 						<h3> TEXT </h3>
-						<p class="score"></p>
+						<p id="scoreText"></p>
 						<h3> PHOTO </h3>
-						<p class="score"></p>
+						<p id="scoreImg"></p>
 					</div>
 					</div>
 					</div>
