@@ -7,27 +7,44 @@ html, body {
 	font-size:14px;
 }
 
-#logout_button {
-	margin: -5px;
+div.container-fluid {
+	background-color: #89C4EB;
+	padding-top: 3px;
 }
 
-#nametest {
+#logout_button {
+	margin: -5px;
+	background-color: white;
+	border-color: white;
+	color: #7C7D77;
+}
+
+#name {
 	margin-top: 17px;
+	color: #7C7D77;
+}
+
+.container h1 {
+	margin-top: 90px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 img.profilepic {
 	height: 300px;
 	width: 300px;
 	text-align: justify-all;
-	margin: 0px 60px 0px 60px;
+	margin: 0px 60px 0px 30px;
 } 
 
 p.patient_details_red, p.patient_details_orange, p.patient_details_green {
-	margin-left: 60px;
+	margin-left: 30px;
 	margin-top:  0px;
 	margin-bottom: 60px;
 	padding: 5px 10px;
 	font-size: 20px;
+	width: 300px;
+	padding: 5px 10px;
 }
 
 .container h1 {
@@ -45,23 +62,11 @@ nav .container-fluid {
 	text-align: center;
 
 }
-=======
+
 p.patient_details_red {
 	background-color: #EB655E;
 }
 
-=======
-p.patient_details_red {
-	background-color: #EB655E;
-}
-
->>>>>>> master
-=======
-p.patient_details_red {
-	background-color: #EB655E;
-}
-
->>>>>>> master
 p.patient_details_orange {
 	background-color: #EFA653;
 }
@@ -69,3 +74,11 @@ p.patient_details_orange {
 p.patient_details_green {
 	background-color: #B6D884;
 
+}
+
+p.copyright {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 60px;
+}
+>>>>>>> origin/front-end
