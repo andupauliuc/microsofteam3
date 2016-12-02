@@ -1,0 +1,40 @@
+body {
+
+	font-family: 'Fira Sans', sans-serif !important;
+}
+
+h1 {
+
+	font-weight: 900 !important;
+	font-size: 30px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.profile img {
+
+	max-width: 150px;
+
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.header{
+
+	background: #ddd;
+}
+
+nav {
+
+	background: #89c4eb;
+}
+
+.footer-header{
+
+	margin: 20px 0px;
+}
+
+.header-content{
+
+	    padding-top: 20px;
+}
